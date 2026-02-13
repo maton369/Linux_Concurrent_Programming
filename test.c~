@@ -1,0 +1,7 @@
+#include<sys/type.h>
+#include<unistd.h>
+#include<stdio.h>
+
+int main(){
+  printf("プロセス id=%d\n", getpid());
+}
